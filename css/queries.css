@@ -1,0 +1,510 @@
+@media (max-width: 74em) {
+  .container {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+
+  .head-content {
+    padding-right: 20rem;
+  }
+
+  .talent-tittle {
+    padding: 0;
+  }
+
+  .talent-details {
+    padding: 2rem 1rem 5rem 1rem;
+  }
+
+  .img-details {
+    gap: 8rem;
+  }
+
+  .img-img {
+    width: 40%;
+  }
+
+  .engineer-heading {
+    padding-right: 40rem;
+  }
+
+  .engineer-description {
+    padding-right: 40rem;
+  }
+
+  .cta-heading {
+    padding-right: 40rem;
+  }
+
+  .cta-description {
+    padding-right: 0;
+  }
+
+  .cta-form-content div:nth-child(5) {
+    width: 55rem;
+  }
+
+  .cta-link {
+    width: 30rem;
+  }
+
+  .service-text:link,
+  .service-text:visited {
+    font-size: 1rem;
+  }
+
+  .service-icon {
+    margin-right: 1rem;
+  }
+  .service-status {
+    margin-right: 0.5rem;
+  }
+
+  .story-text {
+    margin-bottom: 3rem;
+    padding-right: 3rem;
+  }
+
+  .contacts {
+    font-size: 1.2rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .container {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+
+  .main-nav-list {
+    gap: 1rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+
+  .main-nav {
+    background-color: #000;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+
+    pointer-events: auto;
+
+    visibility: visible;
+
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1rem;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .head-content {
+    padding-right: 16rem;
+  }
+
+  .primary-heading {
+    font-size: 4rem;
+  }
+
+  .head-description {
+    padding-right: 15rem;
+    font-size: 1.8rem;
+  }
+
+  .talent-tittle {
+    gap: 12rem;
+  }
+
+  .secondary-heading {
+    font-size: 2.8rem;
+  }
+
+  .talent-description {
+    font-size: 1.6rem;
+  }
+
+  .talent-content {
+    gap: 1rem;
+  }
+
+  .talent-details {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+
+  .tertairy-heading {
+    font-size: 2rem;
+  }
+
+  .talent-note {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .img-details {
+    gap: 5rem;
+  }
+
+  .img-heading {
+    font-size: 2.8rem;
+  }
+
+  .img-note {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .engineer-heading {
+    font-size: 4rem;
+    padding-right: 30rem;
+  }
+
+  .engineer-description {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .cta-heading {
+    padding-right: 30rem;
+    font-size: 4rem;
+  }
+
+  .cta-description {
+    font-size: 1.5rem;
+  }
+
+  .cta-form-content {
+    row-gap: 2rem;
+  }
+
+  .cta-form-content div:nth-child(5) {
+    width: 45rem;
+  }
+
+  .cta-link {
+    width: 25rem;
+    padding: 2rem;
+  }
+
+  .grid--footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 3rem;
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .team-heading {
+    font-size: 4rem;
+  }
+
+  .img-text {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  .story-text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .story-text:nth-child(3) {
+    padding-right: 0;
+  }
+
+  .primary-heading-1 {
+    padding-right: 25rem;
+  }
+
+  .head-description-1 {
+    font-size: 1.6rem;
+    padding-right: 20rem;
+  }
+
+  .service-box {
+    padding: 2rem 0.2rem 1rem 0.5rem;
+  }
+
+  .service-icon {
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+  }
+
+  .service-status {
+    margin-right: 0.4rem;
+  }
+
+  .service-price {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 47.75em) {
+  .container {
+    max-width: 55rem;
+    margin: 0 auto;
+  }
+
+  .head-content {
+    padding-right: 0;
+  }
+  .primary-heading {
+    font-size: 3.8rem;
+  }
+
+  .head-description {
+    font-size: 1.6rem;
+  }
+
+  .secondary-heading {
+    font-size: 3rem;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  .talent-tittle {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .talent-description {
+    font-size: 1.5rem;
+    padding-right: 10rem;
+  }
+
+  .talent-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .img-details {
+    flex-direction: column;
+  }
+
+  .img-img {
+    width: 100%;
+  }
+
+  .engineer-heading {
+    font-size: 3.4rem;
+    padding-right: 10rem;
+  }
+
+  .engineer-description {
+    padding-right: 15rem;
+  }
+
+  .engineer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-heading {
+    padding-right: 15rem;
+    font-size: 3.6rem;
+    margin-bottom: 0;
+  }
+
+  .cta-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-link {
+    width: 40rem;
+    padding: 2rem;
+  }
+
+  .team-content {
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
+  }
+
+  .primary-heading-1 {
+    font-size: 4rem;
+    padding-right: 20rem;
+  }
+
+  .head-description-1 {
+    padding-right: 15rem;
+  }
+
+  .service-note {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+  }
+
+  .service-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+  }
+
+  .service-status {
+    margin-right: 0.6rem;
+  }
+
+  .service-price {
+    font-size: 2rem;
+  }
+
+  .footer {
+    padding-bottom: 3rem;
+    padding-top: 9rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .copyright {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contacts {
+    margin-bottom: 2rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .address {
+    margin-bottom: 2rem;
+  }
+
+  .footer-nav {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 31em) {
+  .talent-content {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form-content div:first-child {
+    grid-column: span 2;
+    width: 35rem;
+  }
+  .cta-form-content div:nth-child(2) {
+    grid-column: span 2;
+    width: 35rem;
+  }
+  .cta-form-content div:nth-child(3) {
+    grid-column: span 2;
+    width: 35rem;
+  }
+  .cta-form-content div:nth-child(4) {
+    grid-column: span 2;
+    width: 35rem;
+  }
+  .cta-form-content div:nth-child(5) {
+    grid-column: span 2;
+    width: 35rem;
+  }
+
+  .cta-form-content div:last-child {
+    grid-column: span 2;
+    width: 35rem;
+  }
+
+  .cta-link {
+    width: 30rem;
+    padding: 2rem;
+  }
+
+  .service-content {
+    grid-template-columns: 1fr;
+  }
+
+  .service-icon {
+    font-size: 2.4rem;
+    margin-right: 4rem;
+  }
+
+  .service-status {
+    margin-right: 3rem;
+  }
+
+  .service-price {
+    font-size: 3rem;
+  }
+
+  .primary-heading-1 {
+    padding-right: 10rem;
+  }
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+
+  .engineer-heading {
+    padding-right: 0;
+  }
+
+  .cta-heading {
+    padding-right: 0;
+  }
+}
